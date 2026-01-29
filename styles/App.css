@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.profile-card {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.profile-photo {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  display: block;
+  margin: 5px 0;
+  color: blue;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
